@@ -2,16 +2,16 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2022-04-08T11:12:02 CDT" name="Default suite" finished-at="2022-04-08T11:12:02 CDT" duration-ms="139">
+  <suite started-at="2022-04-11T17:05:50 CDT" name="Test Suites" finished-at="2022-04-11T17:05:51 CDT" duration-ms="87">
     <groups>
     </groups>
-    <test started-at="2022-04-08T11:12:02 CDT" name="Default test" finished-at="2022-04-08T11:12:02 CDT" duration-ms="139">
-      <class name="learning.AssertionsExample">
-        <test-method signature="checkEqual()[pri:0, instance:learning.AssertionsExample@61d6015a]" started-at="2022-04-08T11:12:02 CDT" name="checkEqual" finished-at="2022-04-08T11:12:02 CDT" duration-ms="25" status="PASS">
+    <test started-at="2022-04-11T17:05:50 CDT" name="Test Casses" finished-at="2022-04-11T17:05:51 CDT" duration-ms="87">
+      <class name="learning.SampleTestCase">
+        <test-method signature="FirstTestCase()[pri:0, instance:learning.SampleTestCase@2525ff7e]" started-at="2022-04-11T17:05:50 CDT" name="FirstTestCase" finished-at="2022-04-11T17:05:51 CDT" duration-ms="11" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- checkEqual -->
-      </class> <!-- learning.AssertionsExample -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+        </test-method> <!-- FirstTestCase -->
+      </class> <!-- learning.SampleTestCase -->
+    </test> <!-- Test Casses -->
+  </suite> <!-- Test Suites -->
 </testng-results>

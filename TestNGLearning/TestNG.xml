@@ -1,13 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
 <suite name="Test Suites" verbose="2" parallel="methods" thread-count="2">
+<listeners>
+<listener class-name="learning.ListenersExample"></listener>
+</listeners>
 <test name="Test Casses">
-<parameter name="Name" value="Kamalakannan"></parameter>
 <classes>
-<class name="testNG.ParameterizationExample"></class>
+<class name="learning.SampleTestCase"></class>
 </classes>
 </test>
 </suite>
+
+<!-- <parameter name="Name" value="Kamalakannan"></parameter> -->
 
 
 <!-- <groups>
@@ -16,11 +20,11 @@
 <include name="Google"></include>
 </run>
 </groups> 
-<class name="testNG.GroupingExample"></class>-->
+<class name="learning.GroupingExample"></class>-->
 
 
-<!--<class name="testNG.DependenciesManagement"></class>
-<class name="testNG.DriveACar"></class>
-<class name="testNG.SampleTestCase"></class>
-<class name="testNG.SkipATestCase"></class> 
+<!--<class name="learning.DependenciesManagement"></class>
+<class name="learning.DriveACar"></class>
+<class name="learning.SampleTestCase"></class>
+<class name="learning.SkipATestCase"></class> 
  -->
