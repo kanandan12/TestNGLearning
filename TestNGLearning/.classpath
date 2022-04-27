@@ -25,5 +25,6 @@
 			<attribute name="maven.scope" value="compile"/>
 		</attributes>
 	</classpathentry>
+	<classpathentry kind="lib" path="C:/Users/koush/eclipse/java-2022-03/eclipse/JAR Files/selenium-server-4.1.4.jar"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>
