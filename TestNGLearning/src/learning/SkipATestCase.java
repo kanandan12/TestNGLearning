@@ -9,6 +9,12 @@ public class SkipATestCase {
 		System.out.println("Start the car");
 	}
 	
+	@Test(priority=6, enabled=false)
+	public void powerOff() {
+		System.out.println("Music Turnned On");
+		
+	}
+	
 	@Test(priority=5, enabled=false)
 	public void turnTheMusicOn() {
 		System.out.println("Music Turnned On");
